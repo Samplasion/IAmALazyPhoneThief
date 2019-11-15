@@ -18,7 +18,7 @@ do shell script "chmod +x /usr/local/bin/iproxy" with administrator privileges
 set okbtn to "Let's Crack!"
 set title to "IAmALazyPhoneThief"
 
-set crack to (button returned of (display dialog "Click on \"" & okbtn & "\" to crack your probably stolen device." with title title buttons {okbtn, "Nope, I'm a man of sane principles."} default button 1 cancel button 2)) is equal to okbtn
+set crack to (button returned of (display dialog "Connect a checkra1ned device, then click on \"" & okbtn & "\" to crack your probably stolen device." with title title buttons {okbtn, "Nope, I'm a man of sane principles."} default button 1 cancel button 2)) is equal to okbtn
 
 if not crack then exit repeat
 
