@@ -28,10 +28,10 @@ try
 	step("Running magic hax pt. 2")
 	set x to do shell script "/usr/local/bin/python3 " & (POSIX path of (path to temporary items)) & "thief.py"
 	display dialog x & "
-Enjoy your now unlocked stolen phone!" with title title buttons {"Thanks, now fuck off"} default button 1
+Enjoy your now unlocked stolen phone!" with title title buttons {"Thanks, now screw off"} default button 1
 on error err
 	display dialog "Howdy, filthy thief, I hope you choke! An error occurred, did you steal this computer, too?
-" & lastLine(err) with title title buttons {"Fuck you"} default button 1
+" & lastLine(err) with title title buttons {"Screw you"} default button 1
 end try
 
 to lastLine(someText)
